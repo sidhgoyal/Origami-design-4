@@ -1,0 +1,61 @@
+img {
+    border: solid #00ffff 5px;
+    
+    
+}
+
+
+
+.header{
+  background-image: url("Back.jpg");
+    text-align: center;
+   
+    color:#ffffff;
+    height: 500px;
+}
+
+
+.menu{
+    text-align: center;
+   margin-top: 100px;
+    
+}
+
+.item {
+    border-color:#00ffff;
+    border-style:solid;
+   border-radius: 3mm;
+   border-width: 10px;
+  width: 300px;
+   text-align: center;
+   background-color:#7fffd4;    ;
+    
+}
+.item{
+    
+    position: relative;
+}
+
+.item .head h1{
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    
+  
+  opacity: 0;
+}
+
+.item:hover .head h1{
+
+   opacity:1;
+
+}
+
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
